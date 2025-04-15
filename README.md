@@ -9,7 +9,6 @@ Kinopoisk Rating Scraper — это Python-скрипт для автомати�
   - requests
   - beautifulsoup4
   - pandas (для экспорта в CSV)
-  - json (для экспорта в JSON)
 
 ## Установка
 
@@ -72,24 +71,9 @@ python kinopoisk_scraper.py
 ### Параметры запуска
 
 ```bash
-python kinopoisk_scraper.py [--format FORMAT] [--output FILENAME]
-```
-
-- `--format` - формат выходных данных (csv или json, по умолчанию csv)
-- `--output` - имя выходного файла (по умолчанию kinopoisk_ratings.csv или kinopoisk_ratings.json)
-
-### Примеры использования
-
-```bash
-# Экспорт в CSV (по умолчанию)
 python kinopoisk_scraper.py
-
-# Экспорт в JSON
-python kinopoisk_scraper.py --format json
-
-# Экспорт в CSV с указанием имени файла
-python kinopoisk_scraper.py --output my_ratings.csv
 ```
+
 
 ## Структура проекта
 
