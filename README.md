@@ -99,4 +99,4 @@ python kinopoisk_scraper.py
 5. Откройте Pull Request
 
 ## Автор
-[GitHub](https://github.com/Zhdanko-Gleb)
+[Gleb Zhdanko](https://github.com/Zhdanko-Gleb)
