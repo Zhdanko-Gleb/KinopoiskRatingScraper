@@ -68,13 +68,6 @@ number_user = "ваш_идентификатор_пользователя_зде
 python kinopoisk_scraper.py
 ```
 
-### Параметры запуска
-
-```bash
-python kinopoisk_scraper.py
-```
-
-
 ## Структура проекта
 
 - `kinopoisk_scraper.py` - основной скрипт для скрапинга
